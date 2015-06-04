@@ -1,7 +1,7 @@
 from math import factorial
 def results(a,b):
 	if a < 25 and b < 25:
-		return 0
+		return factorial(a+b)/(factorial(b) * factorial(a))
 	elif a == 25:
 		return  factorial(24+b)/(factorial(b) * factorial(24))
 	elif b == 25:
