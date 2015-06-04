@@ -1,3 +1,4 @@
+# programming challenge @ http://developersleague.net/programming-challenge-1/
 from math import factorial
 def results(a,b):
 	if a < 25 and b < 25:
